@@ -29,7 +29,7 @@
   }
   
   .left-container {
-    background: #E71D23;
+    background: #0c0a0a;
     height: 100%;
     width: calc(50% + 50px);
   }
@@ -48,6 +48,8 @@
     box-shadow: 0 0 2px 2px rgba(0,0,0,.5);
     height: 30px;
     width: 30px;
+    cursor: pointer;
+    color: #080101;
   }
   
   .top-section__small-buttons {
@@ -256,7 +258,7 @@
   }
   
   .left-container__hinge {
-    background: linear-gradient(to right, #7F100F, #E71D23, #E71D23, #7F100F);
+    background: linear-gradient(to right, #110909, #070303, #110505, #130302);
     height: 75px;
     width: 100%;
   }
@@ -271,6 +273,9 @@
   
   .top-section__red {
     background: #7F100F;
+    cursor: pointer;
+    color: #07080a;
+    
   }
   
   .top-section__yellow {
@@ -282,7 +287,7 @@
   }
   
   .right-container {
-    background: #E71D23;
+    background: #080101;
     height: calc(100% - 50px);
     padding: 25px;
     width: calc(50% - 50px);
